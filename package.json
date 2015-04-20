@@ -4,8 +4,8 @@
   "description": "Express middleware to mimic slow loading http resources",
   "main": "index.js",
   "scripts": {
-    "server": "node test/server",
-    "test": "mocha"
+    "test": "mocha",
+    "start": "node test/server"
   },
   "keywords": [
     "express",
@@ -17,6 +17,13 @@
   ],
   "author": "Steven Benisek <steven.benisek@gmail.com>",
   "license": "MIT",
+  "bugs": {
+    "url" : "https://github.com/stevenbenisek/express-middleware-slooow/issues"
+  },
+  "repository": {
+    "type" : "git",
+    "url" : "https://github.com/stevenbenisek/express-middleware-slooow.git"
+  },
   "dependencies": {
     "es6-promise": "^2.0.1",
     "request": "^2.55.0"

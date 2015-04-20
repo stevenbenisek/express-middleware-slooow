@@ -1,0 +1,18 @@
+doctype html
+html
+    head
+        meta(charset='UTF-8')
+        title express-middleware-slooow
+        link(href='#{base}/static/test.css' rel='stylesheet' onload='this.style.color="green"')
+        link(href='#{base}/slooow?url=#{base}/static/test.css&ttfb=1' rel='stylesheet' onload='this.style.color="green"')
+        link(href='#{base}/slooow?url=#{base}/static/test.css' rel='stylesheet' onload='this.style.color="green"')
+    body
+        h1 express-middleware-slooow
+        img(src='#{base}/slooow?url=#{base}/static/test.jpg&ttfb=2' onload='this.style.border="5px solid green"')
+        img(src='#{base}/slooow?url=http://placehold.it/350x350' onload='this.style.border="5px solid green"')
+        script(src='#{base}/slooow?url=#{base}/static/test.js&ttfb=3' onload='this.style.color="green"')
+        script(src='#{base}/slooow?url=#{base}/static/test.js&ttfb=6' onload='this.style.color="green"')
+        script(src='#{base}/static/test.js' onload='this.style.color="green"')
+        img(src='#{base}/slooow?url=#{base}/static/test.svg&ttfb=2' onload='this.style.border="5px solid green"')
+        link(href='#{base}/slooow?url=#{base}/static/test.css&ttfb=3' rel='stylesheet' onload='this.style.color="green"')
+        iframe(src='#{base}/static/test.html' onload='this.style.border="5px solid green"')

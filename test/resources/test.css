@@ -1,0 +1,4 @@
+* { display: block; margin: 5px; }
+title { display: none; }
+link:after { content: attr(href); }
+script:after { content: attr(src); }

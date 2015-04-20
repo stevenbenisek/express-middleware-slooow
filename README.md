@@ -1,5 +1,7 @@
 # express-middleware-slooow
 
+[![Build Status](https://travis-ci.org/stevenbenisek/express-middleware-slooow.svg?branch=master)](https://travis-ci.org/stevenbenisek/express-middleware-slooow)
+
 [Express.js middleware](http://expressjs.com/guide/using-middleware.html) to mimic slow loading HTTP resources.
 
 ## Usage
